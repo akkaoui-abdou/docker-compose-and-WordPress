@@ -64,3 +64,9 @@ Now, run docker compose up -d from your project directory.
 ```bash
 $ docker compose up -d
 ```
+
+
+Bring up WordPress in a web browser
+---
+
+Open http://localhost:8000 in a web browser.
