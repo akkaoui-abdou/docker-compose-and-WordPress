@@ -6,8 +6,8 @@ Create an empty project directory.
 ---
 
 ```bash
-mkdir my_wordpress
-cd my_wordpress/
+$ mkdir my_wordpress
+$ cd my_wordpress/
 
 ```
 
@@ -15,7 +15,7 @@ Create a docker-compose.yml file that starts your WordPress blog and a separate 
 ---
 
 ```bash
-touch docker-compose.yml
+$ touch docker-compose.yml
 ```
 
 Content docker-compose.yml
@@ -53,4 +53,14 @@ services:
 volumes:
   db_data: {}
   wordpress_data: {}
+```
+
+Build the project
+---
+
+Now, run docker compose up -d from your project directory.
+
+
+```bash
+$ docker compose up -d
 ```
