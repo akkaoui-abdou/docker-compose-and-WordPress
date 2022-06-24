@@ -6,6 +6,7 @@ Create an empty project directory.
 ---
 
 ```bash
+mkdir my_wordpress
 cd my_wordpress/
 
 ```
@@ -17,7 +18,7 @@ Create a docker-compose.yml file that starts your WordPress blog and a separate 
 touch docker-compose.yml
 ```
 
-Content 
+Content docker-compose.yml
 ---
 
 ```yml
